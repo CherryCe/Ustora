@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="components/template_admin.html::head" />
+<body>
+	<div th:include="components/template_admin.html::navbar" />
+	<div class="container-fluid">
+
+		<a th:href="@{/admin/products/add}" style="margin: 20px 0"
+			class="btn btn-primary">Add Product</a>
+		<table class="table">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">SN</th>
+					<th scope="col">Product Name</th>
+					<th scope="col">Category</th>
+					<th scope="col">Preview</th>
+					<th scope="col">Delete</th>
+					<th scope="col">Update</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr th:each="product, iStat : ${products}">
+					<th scope="row" th:text="${iStat.index + 1}">1</th>
+					<td th:text="${product.name}">Larry</td>
+					<td th:text="${product.category.name}">Larry</td>
+					<td><img src="" height="100px" width="100px"
+						th:src="@{${'/productImages/' + product.imageName}}"></td>
+					<td>
+						<div class="dropdown">
+							<button class="btn btn-danger dropdown-toggle" type="button"
+								id="delete" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Delete</button>
+							<ul class="dropdown-menu" style="border: none">
+								<li><a href=""
+									th:href="@{/admin/products/delete/{id}(id=${product.id})}"><i
+										class="fa fa-check btn btn-primary"></i></a></li>
+								<li style="margin-top: 4px"><a href="#"><i class="fa fa-trash btn btn-success"></i></a></li>
+							</ul>
+						</div>
+					</td>
+					<td><a href=""
+						th:href="@{/admin/products/update/{id}(id=${product.id})}"
+						class="btn btn-warning">Update</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+	<div th:include="components/template_admin.html::script" />
+</body>
+</html>

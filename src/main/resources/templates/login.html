@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="components/template_user.html::head" />
+<body>
+	<div th:include="components/template_user.html::header" />
+	<div class="container" style="padding: 40px 0">
+		<div class="row" style="display: flex; justify-content: center">
+			<div class="col-sm-6">
+				<h2 class="text-center">Login</h2>
+				<form th:action="@{/login}" method="post" data-toggle="validator"
+					role="form">
+					<div class="form-group">
+						<label for="email">Email</label> <input type="email" name="email"
+							id="email" placeholder="Your Email"
+							class="form-control form-control-lg" required>
+						<div class="help-block with-errors"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="password">Password</label> <input type="password"
+							class="form-control form-control-lg" placeholder="Password"
+							name="password" id="password" required>
+						<div class="help-block with-errors"></div>
+					</div>
+					<div th:if="${param.error}" class="alert alert-error text-danger">
+						Invalid username or password.</div>
+
+					<input type="submit" value="Login"
+						class="btn btn-primary btn-block"> <br> <span>Don't
+						have an account <a class="linkControl" href="./register.html"
+						th:href="@{/register}">Register here</a>
+					</span> <a style="float: right" href="" th:href="@{/forgotpassword}">Forgot
+						password?</a>
+				</form>
+				<br>
+				<h3>OR</h3>
+				<a href="/oauth2/authorization/google" class="btn btn-primary">Sign-In
+					with google </a>
+
+			</div>
+
+		</div>
+	</div>
+	<div th:include="components/template_user.html::footer" />
+</body>
+</html>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="031d6fc9-ef4e-40a4-a83c-e687d595b96b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userRoleAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/service/impl/CustomUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/service/impl/CustomUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/hutech/major/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productsAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productsAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/usersAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usersAdd.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="preprojectdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="preprojectdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="preprojectdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="preprojectdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q7NVSnWiQIw0IHFXIxo13jSwSw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SpringWorkSpace/testIntell" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Darkm\Downloads\major-master\src\main\resources" />
+      <recent name="C:\Users\Darkm\Downloads\major-master\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MajorApplication">
+    <configuration name="MajorApplicationTests.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplicationTests.testProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplicationTests.testRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplicationTests.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="major" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.hutech.major.MajorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MajorApplicationTests.testUser" />
+      <item itemvalue="JUnit.MajorApplicationTests.testRole" />
+      <item itemvalue="JUnit.MajorApplicationTests.testLogin" />
+      <item itemvalue="JUnit.MajorApplicationTests.testProduct" />
+      <item itemvalue="Spring Boot.MajorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MajorApplicationTests.testProduct" />
+        <item itemvalue="JUnit.MajorApplicationTests.testLogin" />
+        <item itemvalue="JUnit.MajorApplicationTests.testRole" />
+        <item itemvalue="JUnit.MajorApplicationTests.testUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="031d6fc9-ef4e-40a4-a83c-e687d595b96b" name="Default Changelist" comment="" />
+      <created>1616426691491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616426691491</updated>
+      <workItem from="1616426693483" duration="2899000" />
+      <workItem from="1616597596996" duration="3546000" />
+      <workItem from="1616643417376" duration="13000" />
+      <workItem from="1617544513609" duration="3130000" />
+      <workItem from="1617634440803" duration="7865000" />
+      <workItem from="1617672622148" duration="7362000" />
+      <workItem from="1617680866057" duration="2543000" />
+      <workItem from="1617805039239" duration="2986000" />
+      <workItem from="1617849015868" duration="231000" />
+      <workItem from="1618372061649" duration="31183000" />
+      <workItem from="1618456314374" duration="1856000" />
+      <workItem from="1618497653208" duration="4361000" />
+      <workItem from="1618540166861" duration="1231000" />
+      <workItem from="1618717707975" duration="2593000" />
+      <workItem from="1618724612130" duration="53000" />
+      <workItem from="1618737626889" duration="153000" />
+      <workItem from="1618740689706" duration="625000" />
+      <workItem from="1618814573534" duration="8665000" />
+      <workItem from="1618841202300" duration="8000" />
+      <workItem from="1618975603194" duration="1519000" />
+      <workItem from="1620543356454" duration="16769000" />
+      <workItem from="1621071351827" duration="11000" />
+      <workItem from="1622802968982" duration="3710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="306" y="45" width="816" height="723" key="#Intentions" timestamp="1618382726864">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="306" y="45" width="816" height="723" key="#Intentions/62.0.1304.768@62.0.1304.768" timestamp="1618382726864" />
+    <state x="274" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618406117149">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="274" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1304.768@62.0.1304.768" timestamp="1618406117149" />
+    <state x="482" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618387800291">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="482" y="194" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1304.768@62.0.1304.768" timestamp="1618387800291" />
+    <state x="844" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1620546671340">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="844" y="57" key="#com.intellij.ide.util.MemberChooser/62.0.1304.768@62.0.1304.768" timestamp="1620546671340" />
+    <state x="444" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618389529984">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="444" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1304.768@62.0.1304.768" timestamp="1618389529984" />
+    <state width="465" height="438" key="DebuggerActiveHint" timestamp="1620569794780">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="465" height="438" key="DebuggerActiveHint/62.0.1304.768@62.0.1304.768" timestamp="1620569794780" />
+    <state x="494" y="142" key="FileChooserDialogImpl" timestamp="1618458746111">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="494" y="142" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1618458746111" />
+    <state x="583" y="282" key="Github.ShareDialog" timestamp="1618823134479">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="583" y="282" key="Github.ShareDialog/62.0.1304.768@62.0.1304.768" timestamp="1618823134479" />
+    <state x="499" y="92" key="Github.UntrackedFilesDialog" timestamp="1618823195905">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="499" y="92" key="Github.UntrackedFilesDialog/62.0.1304.768@62.0.1304.768" timestamp="1618823195905" />
+    <state width="1261" height="312" key="GridCell.Tab.0.bottom" timestamp="1622806709896">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1622806709896" />
+    <state width="1261" height="312" key="GridCell.Tab.0.center" timestamp="1622806709896">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1622806709896" />
+    <state width="1261" height="312" key="GridCell.Tab.0.left" timestamp="1622806709896">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1622806709896" />
+    <state width="1261" height="312" key="GridCell.Tab.0.right" timestamp="1622806709896">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1622806709896" />
+    <state width="1261" height="312" key="GridCell.Tab.1.bottom" timestamp="1622806709897">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1622806709897" />
+    <state width="1261" height="312" key="GridCell.Tab.1.center" timestamp="1622806709897">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1622806709897" />
+    <state width="1261" height="312" key="GridCell.Tab.1.left" timestamp="1622806709897">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1622806709896" />
+    <state width="1261" height="312" key="GridCell.Tab.1.right" timestamp="1622806709897">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="312" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1622806709897" />
+    <state width="1261" height="249" key="GridCell.Tab.2.bottom" timestamp="1620574338459">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="249" key="GridCell.Tab.2.bottom/62.0.1304.768@62.0.1304.768" timestamp="1620574338459" />
+    <state width="1261" height="249" key="GridCell.Tab.2.center" timestamp="1620574338459">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="249" key="GridCell.Tab.2.center/62.0.1304.768@62.0.1304.768" timestamp="1620574338459" />
+    <state width="1261" height="249" key="GridCell.Tab.2.left" timestamp="1620574338459">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="249" key="GridCell.Tab.2.left/62.0.1304.768@62.0.1304.768" timestamp="1620574338459" />
+    <state width="1261" height="249" key="GridCell.Tab.2.right" timestamp="1620574338459">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="249" key="GridCell.Tab.2.right/62.0.1304.768@62.0.1304.768" timestamp="1620574338459" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1617642458568">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/62.0.1304.768@62.0.1304.768" timestamp="1617642458568" />
+    <state x="603" y="197" width="319" height="374" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617807162726">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="603" y="197" width="319" height="374" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/62.0.1304.768@62.0.1304.768" timestamp="1617807162726" />
+    <state x="444" y="192" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1618410717042">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="444" y="192" key="com.intellij.database.dbimport.ImportUtil.MyDialog/62.0.1304.768@62.0.1304.768" timestamp="1618410717042" />
+    <state x="430" y="34" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1618977017682">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="430" y="34" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/62.0.1304.768@62.0.1304.768" timestamp="1618977017682" />
+    <state x="422" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1621071353019">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="422" y="211" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1621071353019" />
+    <state x="370" y="172" key="run.anything.popup" timestamp="1617676676602">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="370" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1617676676602" />
+    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1618823123566">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1618823123566" />
+  </component>
+</project>

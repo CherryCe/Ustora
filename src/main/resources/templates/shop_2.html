@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="components/template_user.html::head" />
+<body>
+	<div th:include="components/template_user.html::header" />
+
+	<div class="product-big-title-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="product-bit-title text-center">
+						<h2>Shop</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="single-product-area">
+		<div class="zigzag-bottom"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="">
+						<h4>Categories</h4>
+						<ul class="list-group">
+							<li class="list-group-item"><a th:href="@{/shop}">All
+									Product</a></li>
+							<li class="list-group-item" th:each="category : ${categories}"><a
+								th:href="@{/shop/category/{id}(id=${category.id})}"
+								th:text="${category.name}"></a></li>
+						</ul>
+					</div>
+					<div class="" style="margin: 30px 0">
+						<h4>Sort By</h4>
+						<ul class="list-group">
+							<li class="list-group-item"><a th:href="@{/shop/sortASC}">ASC</a></li>
+							<li class="list-group-item"><a th:href="@{/shop/sortDESC}">DESC</a></li>
+						</ul>
+					</div>
+					<form class="form-inline my-2 my-lg-0" method="post"
+						th:action="@{/shop/searchproduct}">
+						<input class="form-control mr-sm-2" style="width: 100%"
+							type="search" placeholder="Search..." aria-label="Search"
+							name="name" autocomplete="off">
+					</form>
+				</div>
+				<div class="col-sm-9">
+					<div class="col-md-3 col-sm-6" th:each="product : ${products}">
+						<div class="single-shop-product">
+							<div class="product-upper">
+								<img style="height: 150px"
+									th:src="@{${'/productImages/' + product.imageName}}"
+									th:alt="${product.name}">
+							</div>
+
+							<a href="#" th:href="@{/shop/viewproduct/{id}(id=${product.id})}"><h2
+									th:text="${product.name}"></h2></a>
+
+							<div class="product-carousel-price">
+								<ins th:text="'$' + ${product.price}"></ins>
+								<del>$999.00</del>
+							</div>
+
+							<div class="product-option-shop">
+								<a class="add_to_cart_button" data-quantity="1"
+									data-product_sku="" data-product_id="70" rel="nofollow"
+									th:href="@{/addToCartShop/{id}(id = ${product.id})}">Add to
+									cart</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="product-pagination text-center">
+						<nav>
+							<ul class="pagination">
+								<li><a href="#" aria-label="Previous"> <span
+										aria-hidden="true">&laquo;</span>
+								</a></li>
+
+								<li th:each="index : ${#numbers.sequence(1, pageSize)}"><a
+									th:href="@{/shop/pagination/{pageNumber}(pageNumber=${index})}"
+									th:text="${index}"></a></li>
+
+								<li><a href="#" aria-label="Next"> <span
+										aria-hidden="true">&raquo;</span>
+								</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div th:include="components/template_user.html::footer" />
+</body>
+</html>

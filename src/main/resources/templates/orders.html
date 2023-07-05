@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="components/template_admin.html::head" />
+<body>
+	<div th:include="components/template_admin.html::navbar" />
+	<div class="container-fluid">
+		<table class="table">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">SN</th>
+					<th scope="col">Order Code</th>
+					<th scope="col">Date Time</th>
+					<th scope="col">Total</th>
+					<th scope="col">Status</th>
+					<th scope="col">Update</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr th:each="item, index : ${orders}">
+					<td scope="row" th:text="${index.index + 1}"></td>
+					<td th:text="${item.serialNumber}"></td>
+					<td th:text="${item.dateTime}"></td>
+					<td th:text="${item.total}"></td>
+					<td th:text="${item.status}"></td>
+					<td><a href="" th:href="@{/admin/orders/update/{id}(id=${item.id})}" class="btn btn-warning">Update</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+	<div th:include="components/template_admin.html::script" />
+</body>
+</html>

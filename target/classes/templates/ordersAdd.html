@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="components/template_admin.html::head" />
+<body>
+	<nav th:include="components/template_admin.html::navbar" />
+	<div class="container">
+		<h3>Order Infor</h3>
+		<form th:action="@{/admin/orders/add}" method="post"
+			th:object="${orderDTO}" enctype="multipart/form-data"
+			data-toggle="validator" role="form">
+			<div class="row">
+				<div class="col-sm-5">
+
+					<input type="hidden" name="id" th:field="*{id}">
+
+					<div class="form-group">
+						<label for="category">Select Status</label> 
+						<select class="form-control" th:field="*{status}" id="status"
+							name="status">
+							<option th:value="order-placing">Order Placing</option>
+							<option th:value="cancel">Cancel</option>
+							<option th:value="order-completed">Order Completed</option>
+							<option th:value="successful-delivery">Successful Delivery</option>
+					</select>
+						
+						<div class="help-block with-errors"></div>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+	<div th:include="components/template_admin.html::script" />
+</body>
+</html>

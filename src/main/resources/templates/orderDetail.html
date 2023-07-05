@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head th:include="components/template_user.html::head" />
+<body>
+	<div th:include="components/template_user.html::header" />
+	<div class="container" style="padding: 80px 0">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<a href="" th:href="@{/order-placed}"><i class="fa fa-arrow-left"></i><span> Go to Back</span></a>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6 text-right">
+				<p>
+					<em>Receipt: #<span
+						th:text="${userDTO.firstName + ' ' + userDTO.lastName}"></span></em>
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-center">
+				<h1>Order Detail</h1>
+			</div>
+
+			<div class="col-md-9" style="left: 50%; transform: translateX(-50%)">
+				<table class="table">
+					<thead class="thead-light">
+						<tr>
+							<th scope="col">SN</th>
+							<th scope="col">Product Name</th>
+							<th scope="col">Preview</th>
+							<th scope="col">Price</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="item, index : ${orders}">
+							<td scope="row" th:text="${index.index + 1}"></td>
+							<td th:text="${item.product.name}"></td>
+							<td><img src="" height="100px" width="100px"
+								th:src="@{${'/productImages/' + item.product.imageName}}"></td>
+							<td th:text="${'$' + item.product.price}"></td>
+							<td th:text="${item.quantity}"></td>
+							<td th:text="${'$' + item.product.price * item.quantity}"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div th:include="components/template_user.html::footer" />
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="components/template_admin.html::head" />
+<body>
+	<nav th:include="components/template_admin.html::navbar" />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<form th:action="@{/admin/categories/add}" method="post"
+					th:object="${category}" data-toggle="validator" role="form">
+					<input type="hidden" name="id" th:field="*{id}">
+					<div class="form-group">
+						<label for="name">Name</label> <input type="text"
+							class="form-control" required th:field="*{name}" name="name"
+							id="name" placeholder="Enter name">
+						<div class="help-block with-errors"></div>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div th:include="components/template_admin.html::script" />
+</body>
+</html>
